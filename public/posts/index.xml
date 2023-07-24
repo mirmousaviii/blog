@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mostafa&#39;s Blog</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Mostafa&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All contents under &lt;a href=&#34;https://www.gnu.org/licenses/fdl-1.3.html&#34;&gt;GNU FDL&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 24 Jul 2023 18:20:01 +0200</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evaluating Platforms for PR Previews: A Look at Vercel, Netlify, and AWS Amplify</title>
+      <link>http://example.org/posts/evaluating_platforms_for_pr_previews/</link>
+      <pubDate>Mon, 24 Jul 2023 18:20:01 +0200</pubDate>
+      
+      <guid>http://example.org/posts/evaluating_platforms_for_pr_previews/</guid>
+      <description>As developers, we are always looking for solutions that enhance our workflows and increase productivity. One such solution is the ability to have a unique preview URL for each pull request (PR). It not only streamlines the code review process but also ensures the changes look good in a production-like environment before they are merged to the main branch. This feature is increasingly being offered by various platforms, which brings us to the topic of today&amp;rsquo;s blog: comparing popular tools that offer separate preview URLs for each PR.</description>
+    </item>
+    
+  </channel>
+</rss>
