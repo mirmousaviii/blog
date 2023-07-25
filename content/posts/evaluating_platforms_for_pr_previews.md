@@ -1,7 +1,9 @@
 ---
 title: "Evaluating Platforms for PR Previews: A Look at Vercel, Netlify, and AWS Amplify"
-date: 2023-07-24T18:20:01+02:00
+date: 2023-07-22T18:20:01+02:00
 draft: false
+tags: ["AWS", "Vercel", "Netlify", "AWS Amplify", "PR Previews"]
+categories: ["DevOps"]
 ---
 
 
