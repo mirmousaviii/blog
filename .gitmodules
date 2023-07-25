@@ -1,3 +1,6 @@
 [submodule "themes/hugo-ink"]
 	path = themes/hugo-ink
 	url = git@github.com:knadh/hugo-ink.git
+[submodule "themes/simplist"]
+	path = themes/simplist
+	url = https://github.com/mirmousaviii/simplist.git
