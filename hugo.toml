@@ -12,7 +12,7 @@ copyright = "All contents under <a href=\"https://www.gnu.org/licenses/fdl-1.3.h
 googleTagManager = "G-LDWY8DT7E9"
 
 [params]
-	subtitle = "A software developer with many non-technical hobbies like flying, cooking, gardening and housekeeping!"
+	subtitle = "A software engineer with many non-technical hobbies like flying, cooking and gardening!"
 	mode = "auto" # "dark" or "auto"
 
 
