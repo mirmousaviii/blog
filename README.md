@@ -1,5 +1,4 @@
 # blog 
-[![Build GH-Pages](https://github.com/mirmousaviii/blog/workflows/hugo/badge.svg)](https://github.com/mirmousaviii/blog/deployments/activity_log?environment=github-pages)
 My personal website/blog
 
 
