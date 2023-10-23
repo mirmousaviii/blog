@@ -11,4 +11,4 @@ readingTime: 0
 ---
 A software engineer with many non-technical hobbies like flying, cooking and gardening!
 
-BTW, this template is under development 😉
+BTW, this theme is under development 😉
