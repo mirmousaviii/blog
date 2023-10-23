@@ -1,0 +1,22 @@
+<header>
+    <a id="back-to-top-button">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <div class="container">
+        <h1 class="title">
+            <a href="{{ .Site.BaseURL }}">
+                {{ .Site.Title }}
+            </a>
+        </h1>
+
+        <nav>
+            <ul>
+                {{ range .Site.Params.socialMediaLinks }}
+                <li><a href="{{ .link }}" target="_blank" rel="{{ .rel }}"><em class="{{ .icon }}"></em></a></li>
+                {{ end }}
+
+            </ul>
+        </nav>
+    </div>
+</header>
