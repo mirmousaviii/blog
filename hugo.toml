@@ -1,5 +1,5 @@
 title = "Mostafa Mirmousavi"
-baseURL = 'http://mirmousavi.com/'
+baseURL = 'https://mirmousavi.com/'
 
 theme = 'mostafa-hugo-theme'
 
@@ -132,7 +132,7 @@ googleAnalytics = "G-LDWY8DT7E9"
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
     socialMediaLinks = [
     { name = "GitHub", link = "https://github.com/mirmousaviii", icon = "fab fa-github"},
-    { name = "Linkedin", link = "http://linkedin.com/in/mirmousavi/en", icon = "fab fa-linkedin" },
+    { name = "Linkedin", link = "https://linkedin.com/in/mirmousavi/en", icon = "fab fa-linkedin" },
     { name = "Instagram", link = "https://www.instagram.com/mirmousaviii/", icon = "fab fa-instagram" },
     { name = "Twitter / X", link = "https://twitter.com/mirmousaviii", icon = "fab fa-twitter" },
 #    { name = "RSS", link = "/index.xml", icon = "fa fa-rss" },
