@@ -2,7 +2,7 @@
 title: "Sample"
 date: 2021-11-01T13:18:45+01:00
 
-author: "Mostafa"
+author: "Mostafa Mirmousavi"
 categories: []
 tags: []
 

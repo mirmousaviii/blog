@@ -75,4 +75,14 @@
     </div>
     {{ end }}
 
+
+    {{ if .ctx.Params.author }}
+    <div class="author">
+        <a class="link" href="/author/{{ .ctx.Params.author | urlize }}">
+            <i class="fa fa-user"></i>
+            {{ .ctx.Params.author }}
+        </a>
+    </div>
+    {{ end }}
+
 </div>
