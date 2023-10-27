@@ -43,3 +43,9 @@ other = "Series"
 
 [archive]
 other = "Archive"
+
+[otherLinks]
+other = "Other Links"
+
+[currently]
+other = "Currently"
