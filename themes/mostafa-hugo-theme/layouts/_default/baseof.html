@@ -68,9 +68,9 @@
     </title>
     <meta itemprop="name" content="{{ .Scratch.Get "title" }}">
     <meta itemprop="description" content="{{ .Scratch.Get "description" }}">
-    <meta property="og:site_name" content="{{ .Site.Title }}">
 
     {{ template "_internal/opengraph.html" . }}
+    <meta property="og:site_name" content="{{ .Site.Title }}">
 
     {{ partial "favicon.html" . }}
 
@@ -87,12 +87,13 @@
 
     {{ partial "css.html" . }}
 
+    <!-- TODO: Fix this part for social media   -->
     {{ partial "twitter-card.html" . }}
 
     {{ partial "hooks/head-end.html" . }}
 </head>
 
-<body class="bilberry-hugo-theme">
+<body class="mostafa-hugo-theme {{.Site.Language.LanguageDirection}}">
     {{ partial "hooks/body-start.html" . }}
 
     {{ partial "header.html" . }}

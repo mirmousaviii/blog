@@ -67,7 +67,7 @@
             <span class="text">{{ .PublishDate.Format (.Site.Params.DateFormat | default "2006-01-02") }}</span>
             {{ end }}
         {{ else }}
-        <span class="text">Currently</span>
+        <span class="text">{{ i18n "currently" }}</span>
         {{ end }}
     </div>
 
