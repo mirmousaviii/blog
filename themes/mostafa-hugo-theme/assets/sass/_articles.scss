@@ -132,7 +132,7 @@ article {
         }
 
         a.more {
-            display: block;
+            display: inline-block;
             margin: 2.5rem 0 1rem;
             //color: $header-text-color;
             font-size: 1em;
@@ -143,6 +143,12 @@ article {
                 color: $header-text-color;
                 //text-decoration: underline;
             }
+        }
+
+        .readingTime {
+            display: inline-block;
+            font-size: 0.8em;
+            margin: 0 5px;
         }
 
         .task-list {
