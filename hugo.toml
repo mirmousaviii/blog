@@ -1,16 +1,17 @@
-title = "Mostafa Mirmousavi"
 baseURL = 'https://mirmousavi.com/'
+title = "Mostafa Mirmousavi"
 
 theme = 'mostafa-hugo-theme'
-
-# Generate the robots.txt file for SEO
-enableRobotsTXT = true
 
 # Change to one of your content languages defined at the end.
 DefaultContentLanguage = "en"
 
-# Enable / Disable Google Analytics statistics for your site
+# Enable / Disable Google Analytics statistics
 googleAnalytics = "G-LDWY8DT7E9"
+
+# Generate the robots.txt file for SEO
+enableRobotsTXT = true
+
 
 [params]
     # Custom CSS / JS modules that will be imported by the template.
@@ -24,18 +25,11 @@ googleAnalytics = "G-LDWY8DT7E9"
 
     # Description and meta data for the search engines
     author = "Mostafa Mirmousavi"
-    description = "A software engineer with many non-technical hobbies like flying, cooking and gardening!"
-    keywords = "mostafa,mirmousavi,coderconf,persianlug"
+    description = "Software Engineer"
+    keywords = "mostafa,mirmousavi,coderconf,persianlug,مصطفی,میرموسوی,پرشین‌لاگ"
 
     subtitle = "A software engineer with many non-technical hobbies like flying, cooking and gardening!"
 
-    #avatarEmail = "mirmousavi.m@gmail.com"
-
-    # set an path to the image file you want to use | overwrites avatar by email
-    customImage = "avatar.jpg"
-
-    # define the icon you want to use for the overlay for the customImage or avatar.
-    overlayIcon = "fa-home"
 
     # How many articles should be displayed at once?
     paginate = 10
@@ -46,11 +40,10 @@ googleAnalytics = "G-LDWY8DT7E9"
     #     even if the image has the correct sizes.
     resizeImages = true
 
-    # always display the top navigation (with pages and search) on non-mobile screens
-    #permanentTopNav = true
 
     # always display the top navigation when scrolling
     # works only with permanentTopNav = true
+    #TODO: Fix this
     #stickyNav = true
 
     # show a language chooser in the header
@@ -111,7 +104,7 @@ googleAnalytics = "G-LDWY8DT7E9"
     tocMinWordCount = 400
 
 # Footer configuration
-    #showFooter = true
+    showFooter = true
 
     # How many articles should be displayed at latest posts in the footer?
     # Set to -1 to hide the 'Latest Posts' column
@@ -122,7 +115,8 @@ googleAnalytics = "G-LDWY8DT7E9"
     amountCategoriesInFooter = 10
 
     # show a language chooser in the footer
-    showFooterLanguageChooser = false
+    #TODO: Fix this
+    #showFooterLanguageChooser = false
 
     # social media profile urls for the footer links
     showSocialMedia = true
@@ -135,7 +129,6 @@ googleAnalytics = "G-LDWY8DT7E9"
     { name = "Linkedin", link = "https://linkedin.com/in/mirmousavi/en", icon = "fab fa-linkedin" },
     { name = "Instagram", link = "https://www.instagram.com/mirmousaviii/", icon = "fab fa-instagram" },
     { name = "Twitter / X", link = "https://twitter.com/mirmousaviii", icon = "fab fa-twitter" },
-#    { name = "RSS", link = "/index.xml", icon = "fa fa-rss" },
     ]
 
 otherLinks = [
@@ -160,25 +153,36 @@ otherLinks = [
 
 # customize your available languages for your multi-lingual site
 # or delete one of the [Languages.xx] blocks to use the theme with only one supported language
-#[Languages]
-#    [Languages.en]
-#        weight = 1
-#        languageCode = 'en-US'
-#        languageDirection = 'ltr'
-#        languageName = 'English'
-#        title = "Mostafa's Blog"
-#        subtitle = "A software engineer with many non-technical hobbies like flying, cooking and gardening!"
-#        [languages.en.params]
-#            subtitle = "A software engineer with many non-technical hobbies like flying, cooking and gardening!"
-#    [Languages.fa]
-#        weight = 2
-#        languageCode = 'fa-IR'
-#        languageDirection = 'rtl'
-#        languageName = 'Persian'
-#        title = "مصطفی میرموسوی"
-#        subtitle = "یک برنامه‌نویس با کلی سرگرمی غیر‌فنی"
-#        [languages.fa.params]
-#            subtitle = "یک برنامه‌نویس با کلی سرگرمی غیر‌فنی"
+
+
+
+[Languages]
+    [Languages.en]
+        weight = 1
+        languageCode = 'en-US'
+        languageDirection = 'ltr'
+        languageName = 'English'
+        title = "Mostafa Mirmousavi"
+        [Languages.en.params]
+            subtitle = "Software Engineer"
+    [Languages.de]
+        weight = 2
+        languageCode = 'de-DE'
+        languageDirection = 'ltr'
+        languageName = 'German'
+        title = "Mostafa Mirmousavi"
+        [Languages.de.params]
+            subtitle = "Softwareentwickler"
+    [Languages.fa]
+        weight = 3
+        languageCode = 'fa-IR'
+        languageDirection = 'rtl'
+        languageName = 'Persian'
+        title = "مصطفی میرموسوی"
+        [Languages.fa.params]
+            subtitle = "یک برنامه‌نویس با کلی سرگرمی غیر‌فنی"
+
+
 
 [markup]
     defaultMarkdownHandler = 'goldmark'
@@ -191,6 +195,7 @@ otherLinks = [
         endLevel = 5
         ordered = false
         startLevel = 2
+
 
 # do NOT change anything below
 [taxonomies]
