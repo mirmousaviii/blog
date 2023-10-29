@@ -57,7 +57,18 @@
 
 
         {{ if or (.ctx.Truncated) (isset .ctx.Params "summary") }}
-            <a href="{{ .ctx.Permalink }}" class="more">{{ i18n "continueReading" }}</a>
+            <a href="{{ .ctx.Permalink }}" class="more">
+                {{ i18n "continueReading" }}
+                {{ if ( .ctx.Site.Params.showReadingTime | default false ) }}
+                    {{ if eq .ctx.Params.readingTime 0 }}
+                    <!--hide reading time when it's set to 0 &ndash;&gt;-->
+                    {{ else if .ctx.Params.readingTime }}
+                    <span class="readingTime">({{ i18n "readingTime" .ctx.Params.readingTime }})</span>
+                    {{ else }}
+                    <span class="readingTime">({{ i18n "readingTime" .ctx.ReadingTime }})</span>
+                    {{ end }}
+                {{ end }}
+            </a>
         {{ end }}
 
     {{ end }}
