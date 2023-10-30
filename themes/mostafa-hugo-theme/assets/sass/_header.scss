@@ -122,6 +122,9 @@ header {
             box-shadow: 1px 0 0 #2c2c2c;
             -webkit-box-shadow: 1px 0 0 #2c2c2c;
 
+            width: 70px;
+            text-align: center;
+
             a {
                 padding: 5px;
                 font-size: 0.8em;
@@ -135,7 +138,7 @@ header {
         }
 
         .active {
-            //color: $header-text-color;
+            font-weight: bold;
         }
 
     }
