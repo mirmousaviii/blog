@@ -4,3 +4,9 @@
 [submodule "themes/simplist"]
 	path = themes/simplist
 	url = https://github.com/mirmousaviii/simplist.git
+[submodule "themes/mostafa-hugo-themeaaaaaaaaaaaaaa"]
+	path = themes/mostafa-hugo-themeaaaaaaaaaaaaaa
+	url = https://github.com/mirmousaviii/mostafa-hugo-theme.git
+[submodule "themes/mostafa-hugo-theme"]
+	path = themes/mostafa-hugo-theme
+	url = https://github.com/mirmousaviii/mostafa-hugo-theme.git
