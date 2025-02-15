@@ -6,6 +6,10 @@ on:
   push:
     branches: ["main"]
 
+  # Runs on theme-updated repository_dispatch event
+  repository_dispatch:
+    types: [theme-updated]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
