@@ -158,7 +158,7 @@ otherLinks = [
 
 [Languages]
     [Languages.en]
-        weight = 1
+        weight = 10
         languageCode = 'en-US'
         languageDirection = 'ltr'
         languageName = 'English'
@@ -166,21 +166,30 @@ otherLinks = [
         [Languages.en.params]
             subtitle = "Software Engineer"
     [Languages.de]
-        weight = 2
+        weight = 20
         languageCode = 'de-DE'
         languageDirection = 'ltr'
         languageName = 'German'
         title = "Mostafa Mirmousavi"
         [Languages.de.params]
             subtitle = "Softwareentwickler"
+    [Languages.nl]
+        weight = 30
+        languageCode = 'nl-NL'
+        languageDirection = 'ltr'
+        languageName = 'Dutch'
+        title = "Mostafa Mirmousavi"
+        [Languages.nl.params]
+            subtitle = "Software Engineer"
     [Languages.fa]
-        weight = 3
+        weight = 40
         languageCode = 'fa-IR'
         languageDirection = 'rtl'
         languageName = 'Persian'
         title = "مصطفی میرموسوی"
         [Languages.fa.params]
             subtitle = "یک برنامه‌نویس با کلی سرگرمی غیر‌فنی"
+    
 
 
 

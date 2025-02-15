@@ -9,7 +9,4 @@ showDate: false
 icon: 'fa-user'
 readingTime: 0
 ---
-Ein Softwareentwickler mit vielen nichttechnischen Hobbys wie Fliegen, Kochen und Gartenarbeit!
-
-Übrigens, dieses Thema befindet sich in der Entwicklung 😉
-Bis zur Fertigstellung der Website können Sie die englische Sprache der Website verwenden.
+Ein Softwareentwickler mit einer Leidenschaft für vielfältige Hobbys wie Fliegen, Kochen und Gärtnern 😉

@@ -9,4 +9,4 @@ showDate: false
 icon: 'fa-user'
 readingTime: 0
 ---
-A software engineer with a passion for diverse hobbies like flying, cooking, and gardening 😉
+Een software-engineer met een passie voor diverse hobby's, zoals vliegen, koken en tuinieren 😉
