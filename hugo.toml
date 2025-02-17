@@ -1,8 +1,6 @@
 baseURL = 'https://mirmousavi.com/'
 title = "Mostafa Mirmousavi"
 
-#theme = 'mostafa-hugo-theme'
-
 # Change to one of your content languages defined at the end.
 DefaultContentLanguage = "en"
 
@@ -22,17 +20,14 @@ enableRobotsTXT = true
     # Files are relative to the static/ directory or a URL.
     # Files are imported in the order they appear here, after
     # theme.css and theme.js, respectively.
-#    css_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"]
-#    js_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js", "init-cookieconsent.js"]
     css_modules = []
     js_modules = []
 
     # Description and meta data for the search engines
     author = "Mostafa Mirmousavi"
     description = "Software Engineer"
-    keywords = "mostafa,mirmousavi,coderconf,persianlug,مصطفی,میرموسوی,پرشین‌لاگ"
-
-    subtitle = "A software engineer with many non-technical hobbies like flying, cooking and gardening!"
+    keywords = "mostafa,mirmousavi,javascript,typescript,react,nodejs,monkeyc,مانکی‌سی,مصطفی,میرموسوی"
+    subtitle = "A software engineer with a passion for diverse hobbies like flying, cooking, and gardening 😉"
 
 
     # How many articles should be displayed at once?
@@ -50,40 +45,40 @@ enableRobotsTXT = true
     #TODO: Fix this
     #stickyNav = true
 
-    # show a language chooser in the header
-    #showHeaderLanguageChooser = false
+
+    contentFont = "'Open Sans',sans-serif"
+    contentRTLFont = "Vazirmatn, sans-serif"
+
+    #baseColor = "#191A19"
+    #pageBackgroundColor = "$base-color"
+    #specialColor = "#2D3642"
+    #highlightColor = "#ffffff"
+    #textColor = "#7a7a7a"
+
+    #navBackgroundColor = "$special-color"
+    #navTextColor = "$page-background-color"
+    #algoliaSearchBoxColor = "#444"
+    #algoliaSearchBoxIconColor = "#888"
+    #algoliaSearchBoxBackgroundColor = "#fafafa"
+    #algoliaBorderColor = "#e4e4e4"
+
+    #headerTextColor = "#FF8D00"
+
+    #logoColor = "darken($page-background-color, 1)"
+    #bubbleColor = "$highlight-color"
+    #bubbleBackgroundColor = "#ccc"
+    #bubbleHoverColor = "$highlight-color"
+
+    #articleBackgroundColor = "#343434"
+    #metaTextColor = "#999999"
+    #metaBorderColor = "#eeeeee"
+    #continueReadingHoverColor = "$meta-text-color"
+
+    #footerBackgroundColor = "$page-background-color"
+    #footerHeadlineColor = "$highlight-color"
 
 
-# Color
-#    pageBackgroundColor= "#f1f1f1"
-#    baseColor = "#25242A"
-#    specialColor = "#25242A"
-#    highlightColor = "#0594cb"
-
-#    pageBackgroundColor= "#111827"
-#    baseColor = "#1F2937"
-#    specialColor = "#25242A"
-#    highlightColor = "#0594cb"
-#    textColor = "#000"
-#
-#    navBackgroundColor = "$special-color"
-#    navTextColor = "#fff"
-#
-#    headerTextColor = "#F9F4DA"
-#    logoColor = "darken($page-background-color, 1)"
-#    bubbleColor =  "#fff"
-#    bubbleBackgroundColor = "#ccc"
-#    bubbleHoverColor = "$highlight-color"
-#
-#    articleBackgroundColor = "#1F2937"
-#    metaTextColor = "#fff"
-#    metaBorderColor = "#eee"
-#    continueReadingHoverColor = "$meta-text-color"
-#
-#    footerBorderColor = "#eee"
-#    footerBackgroundColor = "$base-color"
-
-# Content configuration
+    # Content configuration
     # Enable an optional pinned page to display at the top of the index
     #pinnedPost = "/quote/routine/"
     # Set to true to pin only to the first page, false to all pages
@@ -94,12 +89,12 @@ enableRobotsTXT = true
     #enableHighlightJs = true
 
     # enable automatic localization of the article's PublishedDate with momentjs
-    #enableMomentJs = true
+    #enableMomentJs = false
 
     # customize the date format | only works if momentjs is disabled | only works with English month names
     # you can customize it with the options you find here:
-    # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-    #dateFormat = "2023-01-02"
+    # https://gohugo.io/methods/time/format/
+    #dateFormat = "Monday, January 2, 2006" //default is 2006-01-02
 
     # display the estimated reading time for an article
     showReadingTime = true
@@ -107,38 +102,34 @@ enableRobotsTXT = true
     # Minimum word count to display the Table of Contents
     tocMinWordCount = 400
 
-# Footer configuration
+    # Footer configuration
     showFooter = true
 
     # How many articles should be displayed at latest posts in the footer?
     # Set to -1 to hide the 'Latest Posts' column
-    amountLatestPostsInFooter = 5
+    #amountLatestPostsInFooter = 7
 
     # How many categories should be displayed in the footer section?
     # Set to -1 to hide the 'Categories' column
-    amountCategoriesInFooter = 10
-
-    # show a language chooser in the footer
-    #TODO: Fix this
-    #showFooterLanguageChooser = false
-
-    # social media profile urls for the footer links
-    showSocialMedia = true
+    #amountCategoriesInFooter = 7
 
     # define your links with FontAwesome 5 (only free icons are supported)
     # all icons https://fontawesome.com/icons?d=gallery&m=free
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
     socialMediaLinks = [
-    { name = "GitHub", link = "https://github.com/mirmousaviii", icon = "fab fa-github"},
-    { name = "Linkedin", link = "https://linkedin.com/in/mirmousavi/en", icon = "fab fa-linkedin" },
-    { name = "Instagram", link = "https://www.instagram.com/mirmousaviii/", icon = "fab fa-instagram" },
-    { name = "Twitter / X", link = "https://twitter.com/mirmousaviii", icon = "fab fa-twitter" },
+        { name = "GitHub", link = "https://github.com/mirmousaviii", icon = "fab fa-github"},
+        { name = "Linkedin", link = "https://linkedin.com/in/mirmousavi/en", icon = "fab fa-linkedin" },
+        { name = "Twitter / X", link = "https://twitter.com/mirmousaviii", icon = "fab fa-twitter" },
+        #{ name = "RSS", link = "/index.xml", icon = "fas fa-rss" },
+        { name = "Email", link = "mailto:mostafa@mirmousavi.com", icon = "fas fa-envelope" },
     ]
 
-otherLinks = [
-    { name = "Persian LUG", link = "https://persianlug.com/"},
-    { name = "CoderConf", link = "https://coderconf.org/"},
-]
+    # show other links in the footer
+    otherLinks = [
+        { name = "Garmin Apps", link = "https://apps.garmin.com/developer/763f08dc-2be1-402f-b9b3-f3861b4df947/apps"},
+        { name = "Persian LUG", link = "https://persianlug.com/"},
+        { name = "CoderConf", link = "https://coderconf.org/"},
+    ]
 
     # show an archive link in the footer
     #showArchive = true
@@ -147,19 +138,17 @@ otherLinks = [
     #archiveDateGrouping = "2006-01"
 
     # credits line configuration
-#    copyrightBy = "by Mostafa Mirmousavi"
-#    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
-#    copyrightYearOverride = "2023"
-#    copyrightUrl = "https://mirmousavi.com"
-#    creditsText = "Powered by Hugo ♥"
-#    creditsUrl = "https://gohugo.io/"
+    #copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    #copyrightYearOverride = "2024"
+    #copyrightBy = "by Mostafa Mirmousavi" # default is "by {site title}"
+    #copyrightUrl = "https://mirmousavi.com" # default is .Site.BaseURL
 
+
+
+# show a language chooser in the header
+    #showHeaderLanguageChooser = false
 
 # customize your available languages for your multi-lingual site
-# or delete one of the [Languages.xx] blocks to use the theme with only one supported language
-
-
-
 [Languages]
     [Languages.en]
         weight = 10
@@ -192,10 +181,8 @@ otherLinks = [
         languageName = 'Persian'
         title = "مصطفی میرموسوی"
         [Languages.fa.params]
-            subtitle = "یک برنامه‌نویس با کلی سرگرمی غیر‌فنی"
+            subtitle = "Software Engineer"
     
-
-
 
 [markup]
     defaultMarkdownHandler = 'goldmark'
@@ -218,5 +205,5 @@ otherLinks = [
     series   = "series"
 
 [outputs]
-    home = [ "HTML", "JSON", "RSS" ]
+    home = [ "HTML", "RSS", "JSON" ]
     page = [ "HTML" ]
