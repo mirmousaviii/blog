@@ -1,7 +1,7 @@
 baseURL = 'https://mirmousavi.com/'
 title = "Mostafa Mirmousavi"
 
-theme = 'mostafa-hugo-theme'
+#theme = 'mostafa-hugo-theme'
 
 # Change to one of your content languages defined at the end.
 DefaultContentLanguage = "en"
@@ -12,6 +12,10 @@ googleAnalytics = "G-LDWY8DT7E9"
 # Generate the robots.txt file for SEO
 enableRobotsTXT = true
 
+[module]
+    [[module.imports]]
+        path = "github.com/mirmousaviii/mostafa-hugo-theme"
+        #path = "./mostafa-hugo-theme"
 
 [params]
     # Custom CSS / JS modules that will be imported by the template.

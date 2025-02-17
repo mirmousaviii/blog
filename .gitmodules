@@ -1,6 +1,0 @@
-[submodule "themes/simplist"]
-	path = themes/simplist
-	url = https://github.com/mirmousaviii/simplist.git
-[submodule "themes/mostafa-hugo-theme"]
-	path = themes/mostafa-hugo-theme
-	url = git@github.com:mirmousaviii/mostafa-hugo-theme.git
