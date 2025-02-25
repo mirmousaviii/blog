@@ -2,7 +2,7 @@
 
 [![Deploy Hugo site to Pages](https://github.com/mirmousaviii/blog/actions/workflows/hugo.yml/badge.svg)](https://github.com/mirmousaviii/blog/actions/workflows/hugo.yml)
 
-Personal website/blog
+Personal website/blog built with [Hugo](https://gohugo.io/) and [Mostafa hugo theme](https://github.com/mirmousaviii/mostafa-hugo-theme).
 
 This website is built with **Hugo** and is automatically deployed to **GitHub Pages** using **GitHub Actions**. The deployment process ensures that the site always stays up-to-date with the latest changes from both the content and the theme.
 
@@ -37,4 +37,3 @@ hugo server
 ```
 
 Then, open `http://localhost:1313` to preview your site.
-

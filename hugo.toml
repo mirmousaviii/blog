@@ -206,4 +206,4 @@ enableRobotsTXT = true
 
 [outputs]
     home = [ "HTML", "RSS", "JSON" ]
-    page = [ "HTML" ]
+    page = [ "HTML", "RSS" ]
