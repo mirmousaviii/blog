@@ -3,7 +3,7 @@ title: "قالب هوگو"
 date: 2025-02-26T22:49:36+01:00
 #draft: true
 
-categories: ["project", "web development"]
+categories: ["project"]
 tags: ["hugo", "قالب", "تم", "چندزبانه", "RTL", "ریسپانسیو", "چند رسانه‌ای", "حالت تاریک", "وبلاگ"]
 #toc: false
 #author: "مصطفی میرموسوی"

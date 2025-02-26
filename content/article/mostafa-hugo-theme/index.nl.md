@@ -3,7 +3,7 @@ title: "Mostafa Hugo Theme"
 date: 2025-02-26T22:49:36+01:00
 #draft: true
 
-categories: ["project", "webontwikkeling"]
+categories: ["project"]
 tags: ["hugo", "thema's", "meertalig", "RTL", "responsief", "Multimedia", "donkere modus", "blog"]
 #toc: false
 #author: "Mostafa Mirmousavi"
