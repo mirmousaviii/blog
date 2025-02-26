@@ -1,4 +1,5 @@
 baseURL = 'https://mirmousavi.com/'
+languageCode = "en-us"
 title = "Mostafa Mirmousavi"
 
 # Change to one of your content languages defined at the end.
@@ -10,10 +11,10 @@ googleAnalytics = "G-LDWY8DT7E9"
 # Generate the robots.txt file for SEO
 enableRobotsTXT = true
 
+#path = "./mostafa-hugo-theme"
 [module]
     [[module.imports]]
         path = "github.com/mirmousaviii/mostafa-hugo-theme"
-        #path = "./mostafa-hugo-theme"
 
 [params]
     # Custom CSS / JS modules that will be imported by the template.
@@ -39,15 +40,14 @@ enableRobotsTXT = true
     #     even if the image has the correct sizes.
     resizeImages = true
 
-
     # always display the top navigation when scrolling
     # works only with permanentTopNav = true
     #TODO: Fix this
     #stickyNav = true
 
-
-    contentFont = "'Open Sans',sans-serif"
-    contentRTLFont = "Vazirmatn, sans-serif"
+    # Style configuration
+    #contentFont = "'Open Sans',sans-serif"
+    #contentRTLFont = "Vazirmatn, sans-serif"
 
     #baseColor = "#191A19"
     #pageBackgroundColor = "$base-color"
@@ -86,15 +86,15 @@ enableRobotsTXT = true
 
     # enable highlight.js for syntax highlighting or (if set to false) use
     # the hugo built-in chroma highlighter
-    #enableHighlightJs = true
+    enableHighlightJs = true
 
     # enable automatic localization of the article's PublishedDate with momentjs
-    #enableMomentJs = false
+    enableMomentJs = false
 
     # customize the date format | only works if momentjs is disabled | only works with English month names
     # you can customize it with the options you find here:
     # https://gohugo.io/methods/time/format/
-    #dateFormat = "Monday, January 2, 2006" //default is 2006-01-02
+    # dateFormat = "Monday, January 2, 2006" #default is 2006-01-02
 
     # display the estimated reading time for an article
     showReadingTime = true
@@ -107,11 +107,11 @@ enableRobotsTXT = true
 
     # How many articles should be displayed at latest posts in the footer?
     # Set to -1 to hide the 'Latest Posts' column
-    #amountLatestPostsInFooter = 7
+    amountLatestPostsInFooter = 7
 
     # How many categories should be displayed in the footer section?
     # Set to -1 to hide the 'Categories' column
-    #amountCategoriesInFooter = 7
+    amountCategoriesInFooter = 7
 
     # define your links with FontAwesome 5 (only free icons are supported)
     # all icons https://fontawesome.com/icons?d=gallery&m=free
