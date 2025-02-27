@@ -3,7 +3,7 @@ title: "Mostafa Hugo Theme"
 date: 2025-02-26T22:49:36+01:00
 #draft: true
 
-categories: ["project", "web development"]
+categories: ["project"]
 tags: ["hugo", "themes", "multilingual", "RTL", "responsive", "Multimedia", "dark mode", "blog"]
 #toc: false
 #author: "Mostafa Mirmousavi"
@@ -12,7 +12,7 @@ I was searching for a simple Hugo theme that supports various content types, mul
 
 <!--more-->
 
-## Flexible Design for Various Content
+### Flexible Design for Various Content
 
 One of the standout features of this theme is its support for various content types. Unlike many other themes that focus only on text-based articles, **Mostafa Hugo Theme** enables publishing different types of content, including:
 
@@ -23,13 +23,13 @@ One of the standout features of this theme is its support for various content ty
 - **Status**: Share quick updates or short-form content similar to social media posts.
 - **Links**: Share external resources with a brief description.
 
-## Multilingual and RTL Support
+### Multilingual and RTL Support
 
 One of my main requirements was the ability to write some posts in multiple languages. **Mostafa Hugo Theme** fully supports multilingual blogs, allowing content to be written in different languages seamlessly. This feature ensures that readers can easily switch between languages and access content in their preferred language.
 
 Additionally, when exploring other themes, I noticed that most of them did not support **RTL (Right-to-Left) languages** like Persian. This was another major reason that motivated me to create my own theme. **Mostafa Hugo Theme** provides full RTL support, making it a great choice for Persian, Arabic, and other RTL language users.
 
-## Other Key Features
+### Other Key Features
 
 - Responsive design
 - Supports various content types
@@ -39,11 +39,11 @@ Additionally, when exploring other themes, I noticed that most of them did not s
 - Integrated with social media
 - Customizable Layouts
 
-## Why this name?
+### Why this name?
 
 The name is quite simple: I originally built this theme for myself, so it carries my name. It is based on Hugo, the static site generator, and ultimately, it is a theme—hence, **Mostafa Hugo Theme**.
 
-## Explore
+### Explore
 
 If you're interested in using or exploring **Mostafa Hugo Theme**, here are some useful links:
 
