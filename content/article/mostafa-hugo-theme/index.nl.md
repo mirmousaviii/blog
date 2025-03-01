@@ -5,8 +5,7 @@ date: 2025-02-26T22:49:36+01:00
 
 categories: ["project"]
 tags: ["hugo", "thema's", "meertalig", "RTL", "responsief", "Multimedia", "donkere modus", "blog"]
-#toc: false
-#author: "Mostafa Mirmousavi"
+icon: 'fa-code'
 ---
 Ik was op zoek naar een eenvoudig Hugo-thema dat verschillende inhoudstypen, meertalige inhoud, RTL en een responsieve lay-out voor mijn website/blog ondersteunt, maar geen van de beschikbare opties had alle functies die ik nodig had. Dus besloot ik mijn eigen thema te bouwen om ervoor te zorgen dat het alle functies had die ik nodig had. Het resultaat is **Mostafa Hugo Theme**, een thema dat nu mijn blog aandrijft.
 

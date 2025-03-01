@@ -5,8 +5,7 @@ date: 2025-01-12T22:49:36+01:00
 
 categories: ["Projekt"]
 tags: ["garmin", "calendar", "persian", "jalali", "solar hijri", "shamsi", "omar khayyam", "app", "connect iq", "open-source", "monkey-c"]
-#toc: false
-#author: "Mostafa Mirmousavi"
+icon: 'fa-code'
 ---
 Der [persische Kalender](https://en.wikipedia.org/wiki/Solar_Hijri_calendar), auch bekannt als [Jalali-Kalender](https://en.wikipedia.org/wiki/Jalali_calendar), [Shamsi-Kalender](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) oder [Solar-Hijri-Kalender](https://en.wikipedia.org/wiki/Solar_Hijri_calendar), ist der offizielle Kalender des Iran und einiger anderer Länder. Er wurde von persischen Gelehrten, darunter [Omar Khayyam](https://en.wikipedia.org/wiki/Omar_Khayyam) und anderen Astronomen des **11. Jahrhunderts**, entwickelt, die ihn auf der Grundlage präziser astronomischer Berechnungen entwarfen. Im Gegensatz zum [gregorianischen Kalender](https://en.wikipedia.org/wiki/Gregorian_calendar), der einer festen Schaltjahrregel folgt, ist der Jalali-Kalender genauer, da er sich am tatsächlichen Sonnenjahr orientiert und Fehler bei den jahreszeitlichen Verschiebungen im Laufe der Zeit reduziert. Während der gregorianische Kalender einen jährlichen Fehler von **etwa 26 Sekunden** aufweist, ist der Jalali-Kalender auf **1 Sekunde pro Jahr** genau, was ihn zu einem der präzisesten Kalender macht, die heute verwendet werden.
 

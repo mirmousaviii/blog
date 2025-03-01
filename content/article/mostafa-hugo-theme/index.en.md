@@ -5,8 +5,7 @@ date: 2025-02-26T22:49:36+01:00
 
 categories: ["project"]
 tags: ["hugo", "themes", "multilingual", "RTL", "responsive", "Multimedia", "dark mode", "blog"]
-#toc: false
-#author: "Mostafa Mirmousavi"
+icon: 'fa-code'
 ---
 I was searching for a simple Hugo theme that supports various content types, multilingual content, RTL and responsive layout for my website/blog, but none of the available options had all the features I needed. So, I decided to build my own theme to ensure it had all the features I required. The result is **Mostafa Hugo Theme**, a theme that now powers my blog.
 
