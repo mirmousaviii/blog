@@ -11,10 +11,10 @@ googleAnalytics = "G-LDWY8DT7E9"
 # Generate the robots.txt file for SEO
 enableRobotsTXT = true
 
-#path = "./mostafa-hugo-theme"
 [module]
     [[module.imports]]
         path = "github.com/mirmousaviii/mostafa-hugo-theme"
+#          path = "mostafa-hugo-theme"
 
 [params]
     # Custom CSS / JS modules that will be imported by the template.
@@ -156,6 +156,18 @@ enableRobotsTXT = true
         languageDirection = 'ltr'
         languageName = 'English'
         title = "Mostafa Mirmousavi"
+        [[Languages.en.menus.main]]
+            name = "home"
+            url = "/"
+            weight = 10
+        [[Languages.en.menus.main]]
+            name = "categories"
+            url = "/categories/"
+            weight = 20
+        [[Languages.en.menus.main]]
+            name = "Projects"
+            url = "/categories/project/"
+            weight = 40
         [Languages.en.params]
             subtitle = "Software Engineer"
     [Languages.de]
@@ -164,6 +176,18 @@ enableRobotsTXT = true
         languageDirection = 'ltr'
         languageName = 'German'
         title = "Mostafa Mirmousavi"
+        [[Languages.de.menus.main]]
+            name = "home"
+            url = "/de/"
+            weight = 10
+        [[Languages.de.menus.main]]
+            name = "categories"
+            url = "/de/categories/"
+            weight = 20
+        [[Languages.de.menus.main]]
+            name = "Projects"
+            url = "/de/categories/project/"
+            weight = 40
         [Languages.de.params]
             subtitle = "Softwareentwickler"
     [Languages.nl]
@@ -172,6 +196,18 @@ enableRobotsTXT = true
         languageDirection = 'ltr'
         languageName = 'Dutch'
         title = "Mostafa Mirmousavi"
+        [[Languages.nl.menus.main]]
+            name = "home"
+            url = "/nl/"
+            weight = 10
+        [[Languages.nl.menus.main]]
+            name = "categories"
+            url = "/nl/categories/"
+            weight = 20
+        [[Languages.nl.menus.main]]
+            name = "Projects"
+            url = "/nl/categories/project/"
+            weight = 40
         [Languages.nl.params]
             subtitle = "Software Engineer"
     [Languages.fa]
@@ -180,6 +216,18 @@ enableRobotsTXT = true
         languageDirection = 'rtl'
         languageName = 'Persian'
         title = "مصطفی میرموسوی"
+        [[Languages.fa.menus.main]]
+            name = "home"
+            url = "/fa/"
+            weight = 10
+        [[Languages.fa.menus.main]]
+            name = "categories"
+            url = "/fa/categories/"
+            weight = 20
+        [[Languages.fa.menus.main]]
+            name = "پروژه‌ها"
+            url = "/fa/categories/project/"
+            weight = 40
         [Languages.fa.params]
             subtitle = "Software Engineer"
     
