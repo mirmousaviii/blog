@@ -157,7 +157,7 @@ enableRobotsTXT = true
         languageName = 'English'
         title = "Mostafa Mirmousavi"
         [[Languages.en.menus.main]]
-            name = "home"
+            name = "allPosts"
             url = "/"
             weight = 10
         [[Languages.en.menus.main]]
@@ -177,7 +177,7 @@ enableRobotsTXT = true
         languageName = 'German'
         title = "Mostafa Mirmousavi"
         [[Languages.de.menus.main]]
-            name = "home"
+            name = "allPosts"
             url = "/de/"
             weight = 10
         [[Languages.de.menus.main]]
@@ -197,7 +197,7 @@ enableRobotsTXT = true
         languageName = 'Dutch'
         title = "Mostafa Mirmousavi"
         [[Languages.nl.menus.main]]
-            name = "home"
+            name = "allPosts"
             url = "/nl/"
             weight = 10
         [[Languages.nl.menus.main]]
@@ -217,7 +217,7 @@ enableRobotsTXT = true
         languageName = 'Persian'
         title = "مصطفی میرموسوی"
         [[Languages.fa.menus.main]]
-            name = "home"
+            name = "allPosts"
             url = "/fa/"
             weight = 10
         [[Languages.fa.menus.main]]
