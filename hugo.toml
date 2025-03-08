@@ -167,7 +167,7 @@ enableRobotsTXT = true
         [[Languages.en.menus.main]]
             name = "Projects"
             url = "/categories/project/"
-            weight = 40
+            weight = 30
         [Languages.en.params]
             subtitle = "Software Engineer"
     [Languages.de]
@@ -187,7 +187,7 @@ enableRobotsTXT = true
         [[Languages.de.menus.main]]
             name = "Projects"
             url = "/de/categories/project/"
-            weight = 40
+            weight = 30
         [Languages.de.params]
             subtitle = "Softwareentwickler"
     [Languages.nl]
@@ -207,7 +207,7 @@ enableRobotsTXT = true
         [[Languages.nl.menus.main]]
             name = "Projects"
             url = "/nl/categories/project/"
-            weight = 40
+            weight = 30
         [Languages.nl.params]
             subtitle = "Software Engineer"
     [Languages.fa]
@@ -219,7 +219,7 @@ enableRobotsTXT = true
         [[Languages.fa.menus.main]]
             name = "allPosts"
             url = "/fa/"
-            weight = 10
+            weight = 30
         [[Languages.fa.menus.main]]
             name = "categories"
             url = "/fa/categories/"
@@ -227,7 +227,7 @@ enableRobotsTXT = true
         [[Languages.fa.menus.main]]
             name = "پروژه‌ها"
             url = "/fa/categories/project/"
-            weight = 40
+            weight = 10
         [Languages.fa.params]
             subtitle = "Software Engineer"
     
