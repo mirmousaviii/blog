@@ -30,6 +30,7 @@ enableRobotsTXT = true
     keywords = "mostafa,mirmousavi,javascript,typescript,react,nodejs,monkeyc,مانکی‌سی,مصطفی,میرموسوی"
     subtitle = "A software engineer with a passion for diverse hobbies like flying, cooking, and gardening 😉"
 
+    showSubtitle = false
 
     # How many articles should be displayed at once?
     paginate = 10
