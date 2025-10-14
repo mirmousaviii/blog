@@ -1,5 +1,5 @@
 ---
-title: "Mostage: As a Presentation Framework"
+title: "Mostage: A Presentation Framework"
 date: 2025-10-14T19:59:06+02:00
 draft: false
 categories: ["project"]

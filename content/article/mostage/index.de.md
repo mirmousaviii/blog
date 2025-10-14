@@ -1,5 +1,5 @@
 ---
-title: "Mostage: Ein Framework für Web-Präsentationen"
+title: "Mostage: Ein Präsentations-Framework"
 date: 2025-10-14T19:59:06+02:00
 draft: false
 categories: ["project"]
