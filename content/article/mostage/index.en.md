@@ -19,7 +19,7 @@ icon: "fa-code"
 When I was preparing technical talks and product demos by markdown-based presentation, I realized that most existing presentation tools were either too limited or too heavy.
 I wanted something lightweight, flexible, and developer-friendly, a tool that would let me write slides the same way I write documentation or blog post.
 
-That is how I started creating [Mostage](https://mo.js.org). It is not just another presentation tool, but a framework for building and customizing web-based slides using **Markdown** and **HTML**.
+That is how I started creating [Mostage](https://mostage.app/develop.html). It is not just another presentation tool, but a framework for building and customizing web-based slides using **Markdown** and **HTML**.
 You can use it directly to create beautiful, interactive presentations, or even build your own tools on top of it. The official **CLI** tool, for example, is powered by the same **Core Library**.
 
 <!--more-->
@@ -63,9 +63,9 @@ npx mostage dev
 npx mostage export
 ```
 
-- [mo.js.org](https://mo.js.org/)
-- [Demo](https://mo.js.org/demo/)
-- [GitHub Repository](https://github.com/mirmousaviii/mostage)
+- [https://mostage.app/develop](https://mostage.app/develop.html)
+- [Demo](https://mostage.app/demo/)
+- [GitHub Repository](https://github.com/mostage-app/mostage)
 - [NPM](https://www.npmjs.com/package/mostage)
 
 I hope you find this tool useful for your presentations. Feel free to contribute, report issues, or suggest new features. I'm always open to feedback and collaboration.

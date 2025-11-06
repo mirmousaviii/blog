@@ -18,7 +18,7 @@ icon: "fa-code"
 Als ich technische Vorträge und Produktdemos vorbereitete, fiel mir auf, dass die meisten bestehenden Präsentationstools entweder zu eingeschränkt oder zu überladen waren.  
 Ich wollte etwas Leichtes, Flexibles und Entwicklerfreundliches – ein Werkzeug, mit dem ich Folien so einfach schreiben kann wie Dokumentationen oder Blogposts.
 
-So entstand **[Mostage](https://mo.js.org)**.  
+So entstand **[Mostage](https://mostage.app/develop.html)**.  
 Mostage ist nicht nur ein weiteres Präsentationstool, sondern ein **Framework** für das Erstellen und Anpassen von webbasierten Folien mit **Markdown** und **HTML**.  
 Du kannst es direkt verwenden, um schöne, interaktive Präsentationen zu erstellen, oder eigene Tools darauf aufbauen.  
 Das offizielle **CLI-Tool** basiert ebenfalls auf der gleichen **Core Library**.
@@ -64,9 +64,9 @@ npx mostage dev
 npx mostage export
 ```
 
-- [mo.js.org](https://mo.js.org/)
-- [Demo](https://mo.js.org/demo/)
-- [GitHub Repository](https://github.com/mirmousaviii/mostage)
+- [https://mostage.app/develop](https://mostage.app/develop.html)
+- [Demo](https://mostage.app/demo/)
+- [GitHub Repository](https://github.com/mostage-app/mostage)
 - [NPM](https://www.npmjs.com/package/mostage)
 
 Ich hoffe, Mostage hilft dir beim Erstellen deiner nächsten Präsentation.

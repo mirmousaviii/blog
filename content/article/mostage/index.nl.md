@@ -18,7 +18,7 @@ icon: "fa-code"
 Toen ik technische presentaties en productdemo’s aan het voorbereiden was, merkte ik dat de meeste bestaande presentatietools te beperkt of te zwaar waren.  
 Ik wilde iets lichts, flexibel en ontwikkeld voor developers – een manier om slides te schrijven zoals ik documentatie of blogposts schrijf.
 
-Zo is **[Mostage](https://mo.js.org)** ontstaan.  
+Zo is **[Mostage](https://mostage.app/develop.html)** ontstaan.  
 Mostage is niet zomaar een tool, maar een **framework** om webgebaseerde presentaties te maken en aan te passen met **Markdown** en **HTML**.  
 Je kunt het direct gebruiken om mooie, interactieve slides te bouwen, of je eigen tools erop baseren.  
 De officiële **CLI-tool** is bijvoorbeeld gebouwd met dezelfde **Core Library**.
@@ -64,9 +64,9 @@ npx mostage dev
 npx mostage export
 ```
 
-- [mo.js.org](https://mo.js.org/)
-- [Demo](https://mo.js.org/demo/)
-- [GitHub Repository](https://github.com/mirmousaviii/mostage)
+- [https://mostage.app/develop](https://mostage.app/develop.html)
+- [Demo](https://mostage.app/demo/)
+- [GitHub Repository](https://github.com/mostage-app/mostage)
 - [NPM](https://www.npmjs.com/package/mostage)
 
 Ik hoop dat Mostage handig is voor jouw presentaties.
